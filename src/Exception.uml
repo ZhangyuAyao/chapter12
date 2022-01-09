@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.lang.Exception</OriginalElement>
+  <nodes>
+    <node x="480.75" y="78.0">java.lang.Throwable</node>
+    <node x="104.265625" y="234.0">java.lang.StackOverflowError</node>
+    <node x="283.75" y="156.0">java.lang.Error</node>
+    <node x="971.0" y="312.0">java.lang.NumberFormatException</node>
+    <node x="219.0" y="312.0">java.lang.ArrayIndexOutOfBoundsException</node>
+    <node x="527.265625" y="234.0">java.lang.RuntimeException</node>
+    <node x="762.0" y="312.0">java.lang.ClassCastException</node>
+    <node x="538.0" y="312.0">java.lang.NullPointerException</node>
+    <node x="982.265625" y="234.0">java.io.FileNotFoundException</node>
+    <node x="806.5" y="156.0">java.lang.Exception</node>
+    <node x="478.25" y="0.0">java.io.Serializable</node>
+    <node x="0.0" y="312.0">java.lang.ArithmeticException</node>
+    <node x="730.265625" y="234.0">java.lang.ClassNotFoundException</node>
+    <node x="315.265625" y="234.0">java.lang.OutOfMemoryError</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.lang.NumberFormatException" target="java.lang.RuntimeException" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1088.0" y="287.0" />
+      <point x="618.765625" y="287.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.lang.ArithmeticException" target="java.lang.RuntimeException" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="99.5" y="287.0" />
+      <point x="618.765625" y="287.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.lang.ClassCastException" target="java.lang.RuntimeException" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="856.5" y="287.0" />
+      <point x="618.765625" y="287.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.lang.Error" target="java.lang.Throwable" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="326.75" y="131.0" />
+      <point x="544.25" y="131.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.lang.RuntimeException" target="java.lang.Exception" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="618.765625" y="209.0" />
+      <point x="867.5" y="209.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.lang.NullPointerException" target="java.lang.RuntimeException" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="640.0" y="287.0" />
+      <point x="618.765625" y="287.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.lang.ArrayIndexOutOfBoundsException" target="java.lang.RuntimeException" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="368.5" y="287.0" />
+      <point x="618.765625" y="287.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.lang.OutOfMemoryError" target="java.lang.Error" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="411.265625" y="209.0" />
+      <point x="326.75" y="209.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.lang.Throwable" target="java.io.Serializable" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.lang.Exception" target="java.lang.Throwable" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="867.5" y="131.0" />
+      <point x="544.25" y="131.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.io.FileNotFoundException" target="java.lang.Exception" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="1092.765625" y="209.0" />
+      <point x="867.5" y="209.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.lang.ClassNotFoundException" target="java.lang.Exception" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="846.265625" y="209.0" />
+      <point x="867.5" y="209.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.lang.StackOverflowError" target="java.lang.Error" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="199.765625" y="209.0" />
+      <point x="326.75" y="209.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.6989795918367346" showDependencies="false" x="592.8946518809655" y="133.22162759685568" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
